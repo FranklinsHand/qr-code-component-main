@@ -23,8 +23,8 @@ My goal was pixel perfect and I *think* I did that well enough. It matches in th
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/FranklinsHand/qr-code-component-main)
+- Live Site URL: [Add live site URL here](https://dynamic-sfogliatella-ca850a.netlify.app/)
 
 ## My process
 
