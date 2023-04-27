@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: "outfit";
+      src: url("Outfit-VariableFont_wght.ttf");
+    }
+
+  </style>
+  <style>
+    :root {
+      --white: hsl(0, 0%, 100%);
+      --light-gray: hsl(212, 45%, 89%);
+      --grayish-blue: hsl(220, 15%, 55%);
+      --dark-blue: hsl(218, 44%, 22%);
+      font-family: "outfit";
+    }
+    body {
+      background-color: var(--light-gray);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height: 100vh;
+    }
+    h1 {
+      font-weight: 700;
+      color: var(--dark-blue);
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+      font-weight: 400;
+      color: var(--grayish-blue);
+    }
+    .card {
+      background-color: var(--white);
+      width: 290px;
+      padding: 1rem 1rem 2rem 1rem;
+      border-radius: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .content {
+      margin: 0rem 1rem 0rem 1rem;
+    }
+    .header {
+      color: var(--dark-blue)
+    }
+    .qr {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body class="">
+
+  <div class="card">
+
+    <img class="qr" src="images/image-qr-code.png">
+    <div class="content">
+      <h1 class="">Improve your front-end skills by building projects</h1>
+
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    <div>
+  </div>
+  
+</body>
+</html>
